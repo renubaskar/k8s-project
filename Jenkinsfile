@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    stages {
+    stages {   
         stage('Pull Code From GitHub') {
             steps {
                 git 'https://github.com/renubaskar/k8s-project.git'
